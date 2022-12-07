@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+}
+body{
+    background-color: #e6e6e6;
+}
+#info{
+    text-align: center;
+}
+header{
+    height: 75px;
+}
+nav{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.liens{
+    font-size: 1.1em;
+    margin: 25px 55px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 1s;
+}
+.liens:hover{
+    transform: scale(1.15);
+}
+.liens a{
+    text-decoration: none;
+    margin-right: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    border-radius: 15px;
+}
+.liens a:hover{
+    background-color: #aa8aea;
+    border-radius: 25px;
+}
+#logo{
+    margin: 20px 0 0 75px;
+}
+                    /* Début de la section ABOUT ME*/
+.About_me{
+    height: 550px;
+    background: linear-gradient(130deg, #743bde, #7755b7, #aa9cc5);
+}
+#photo_de_profil{
+    opacity: 0.9;
+    transition-duration: 1s;
+}
+#photo_de_profil:hover{
+    opacity: 1;
+}
+.contenu_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.paragraphe_about_me{
+    margin-top: 50px;
+    margin-left: 25px ;
+    color: white;
+}
+h1{
+    color: #884dff;
+    font-size: 3.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+.paragraphe_about_me p{
+    margin: 10px 0 0 0;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+#age_15{
+    color: #c299ff;
+}
+#age_1{
+    color: #c299ff;
+}
+                    /* Fin de la section ABOUTE ME*/ 
+                    /* Débute de la section PROJECTD*/
+#projects_link{
+    font-size: 2.5em;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin: 75px 0 0 0 ;
+}
+.box{
+    height: 350px;
+    width: 350px;
+    margin-right: 30px;
+    border-top: 3px solid #c299ff;
+    box-shadow: 5px 2px 15px;
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 1s;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.conteneur{
+    margin: 100px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#name_bot{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+                    /* Fin de la section PROJECTD*/
+                    /* Début de la section SKILLS*/
+
+.Skills{
+    height: 500px;
+    background-color: #011627;
+    margin: 125px 0 0 0 ;
+}
+#skills_link{
+    font-size: 2.5em;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: rgb(169, 167, 167);
+    padding: 25px 0 0 0 ;
+}
+.mastery_box{
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+    height: 220px;
+}
+.logo_skills{
+    margin: 30px 15px 0 5px;
+    opacity: 0.8;
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+.logo_skills:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+                    /*Fin de la section Skills*/
+                    /*Début du footer*/
+
+footer{
+    width: 100%;
+    margin: auto;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.icon_footer{
+    margin: 0 25px 0 0 ;
+}
+.icon_footer img{
+    margin: 25px 20px 0 0 ;
+}
+.icon_footer img:hover{
+    opacity: 0.7;
+}
